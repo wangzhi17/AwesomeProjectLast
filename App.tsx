@@ -13,7 +13,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 
 const App = () => {
   useEffect(() => {
-    EzvizPlayerVoiceTalk.initSDK("","https://isaopen.ezviz.com").then();
+    EzvizPlayerVoiceTalk.initSDK("","https://isaopen.ezvizlife.com").then();
     return () => EzvizPlayerVoiceTalk.destroySDK();
   }, []);
   return (
